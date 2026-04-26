@@ -1,0 +1,253 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fff;
+    padding: 0 36px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    position: relative;
+}
+
+.logo img {
+    height: 38px;
+    margin-top: 22px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    gap: 14px;
+}
+.eu-badge {
+    background: #eef;
+    color: #007aff;
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.cover-img {
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+    background-size: cover;
+    background-position: center;
+    height: 110px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.top-bar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 30px 36px 0 36px;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+.top-bar > * {
+    flex: 1;
+}
+
+.create-btn {
+    background: #007aff;
+    color: #fff;
+    padding: 30px 60px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.top-widget {
+    background: #fff;
+    border-radius: 9px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    padding: 16px 26px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    min-width: 110px;
+    /*margin-bottom: 10px;*/
+}
+
+.top-widget span {
+    display: block;
+    font-size: 20px;
+    margin-top: 6px;
+    font-weight: 700;
+    color: #007aff;
+}
+
+.content {
+    display: flex;
+    gap: 32px;
+    padding: 18px 36px;
+}
+
+.sidebar {
+    width: 280px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding: 22px 18px;
+}
+
+.booking-section h3, .booking-section h4 {
+    margin: 0 0 10px 0;
+    font-size: 17px;
+}
+
+.booking-section input, .booking-section button {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    padding: 9px;
+    margin: 7px 0;
+    border-radius: 6px;
+    border: 1px solid #d2dbea;
+    background: #f8fafd;
+}
+
+.booking-section button {
+    background: #007aff;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+}
+
+.trips-section h4 {
+    font-size: 16px;
+    margin-top: 22px;
+}
+
+.main-area {
+
+    
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.alerts {
+    background: #fff;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 18px;
+    border: 1px ;
+    font-size: 15px;
+}
+
+.alert-link {
+    margin-bottom: 5px;  /* space between the two links */
+    font-size: 14px;
+    color: #007aff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.hyp{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+*.company-notes {
+    background: #fff;
+    border-radius: 8px;
+    padding: 14px 30px;
+    margin-bottom: 16px;
+    border: 5px;
+    font-size: 15px;*/
+  }
+
+
+.company-notes strong {
+    display: block; 
+    margin-bottom: 8px; /* adjust space here */
+}
+
+.main-widgets {
+    display: flex;
+    gap: 18px;
+}
+
+.approvals-block, .invoices-block, .expenses-block {
+    background: #fff;
+    border-radius: 8px;
+    min-width: 180px;
+    flex: 1;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 18px 14px;
+}
+
+h4 {
+    margin: 0 0 12px 0;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.content-block {
+    color: #ccd;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.invoice-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.invoice-item div:last-child {
+    font-weight: 700;
+    color: #007aff;
+}
+
+@media (max-width: 900px) {
+    .content {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .main-widgets {
+        flex-direction: column;
+    }
+}
+.info-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;              /* space between icon and text */
+    font-size: 14px;       /* small paragraph text */
+    color: #555;
+}
+
+.info-box i {
+    font-size: 18px;       /* size of info icon */
+    color: #007aff;        /* blue icon */
+}
+
+.alerts-area {
+    
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    /*margin-bottom: 10px;*/
+}
+
+.book {
+    
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 700;
+    
+    /*margin-bottom: 10px;*/
+}
+

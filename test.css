@@ -1,0 +1,40 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 36px 0 36px;
+    width: 100%;
+}
+
+.top-bar > * {
+    flex: 1;
+}
+
+.create-btn {
+    background: #007aff;
+    color: #fff;
+    padding: 30px 70px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+.top-widget {
+    background: #fff;
+    border-radius: 9px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    padding: 16px 26px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    min-width: 110px;
+}
+
+.top-widget span {
+    display: block;
+    font-size: 20px;
+    margin-top: 6px;
+    font-weight: 700;
+    color: #007aff;
+}

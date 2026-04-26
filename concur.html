@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SAP Concur Style Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Concur.css">
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+
+
+        <div style="display: flex; align-items: center; position: relative;">
+
+    <!-- Left icon -->
+    <img src="concurlogo.jpg" width="190">
+
+    <!-- Text -->
+    <span style="margin-left: 23px; font-size: 30px; font-weight: bold;">
+        Home
+        <span style="font-size: 20px; margin-left: 5px;">▼</span>
+    </span>
+
+    <!-- Push right icon to right corner -->
+    
+    <i class="material-icons" style="font-size:36px"></i>
+    <i class="fa-solid fa-user" style="font-size: 30px; margin-left: auto;"></i>
+ 
+        
+</div>
+<div class="cover-img"></div>
+    </header>
+
+    <main>
+        <div class="top-bar">
+            <button class="create-btn">Create</button>
+            <div class="top-widget">Required Approvals <span>0</span></div>
+            <div class="top-widget">View Trips <span>0</span></div>
+            <div class="top-widget">Invoices <span>3</span></div>
+            <div class="top-widget">Available Expenses <span>0</span></div>
+            <div class="top-widget">Open Reports <span>3</span></div>
+        </div>
+        <section class="content">
+            <aside class="sidebar">
+                <div class="booking-section">
+
+                  <div class="book-test" style="display: flex; align-items: center; gap: 8px; margin-bottom: 20px;">
+                    <i class='fas fa-user-alt' style='font-size:24px; shape-image-threshold: 2px;'></i>
+    <p style="margin: 0;">Booking for myself</p>
+    <p style="margin: 0;">|</p>
+    <a href="#" class="alert-link" style="margin: 0;">Book for guest</a>
+</div>
+
+<hr>
+
+<div class="second-line-icons" style="display:flex; justify-content:space-between; align-items:center; margin-top:20px;margin-bottom: 15px; width:100%; ">
+
+    <i class='fas fa-train' style='font-size:24px'></i>
+    <i class='fas fa-car' style='font-size:24px'></i>
+    <i class="fa fa-cab" style="font-size:24px;"></i>
+    <i class="fa fa-hotel" style="font-size:24px"></i>
+</div>
+
+                    <h4>Mixed Flight/Train Search</h4>
+                    <form>
+                        <input type="text" placeholder="From">
+                        <input type="text" placeholder="To">
+                        <input type="text" placeholder="Type of transport">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="trips-section">
+                    <h4>Trips</h4>
+                </div>
+            </aside>
+
+
+            <div class="main-area">
+                <div class="alerts">
+                    <div class="alerts-area"><strong>Alerts</strong></div>
+
+                    <hr class="hyp">
+
+                    <div class="info-box">
+                      <i class="fa-solid fa-circle-info"></i>
+                      <p>TripIt creates a schedule with all your travel details in one place, accessible on Android or iPhone.</p>
+                      <a href="#" class="alert-link">Connect to Trips</a>
+                      <a href="#" class="alert-link">Not right now</a>
+                    </div>
+
+                    <hr class="hyp">
+
+                    <div class="info-box">
+                      <i class="fa-solid fa-circle-info"></i>
+                      <p>You haven't signed up to receive e-receipts</p>
+                      <a href="#" class="alert-link">Sign up here</a>
+
+                </div>
+            </div>
+
+
+                <div class="company-notes">
+                    <strong>Company notes</strong>
+
+                    <div><span>Book travel with concur, check travel rules set by yourcompany,get travel maps, and more</span></div>
+                </div>
+
+
+                
+                <div class="main-widgets">
+                    <div class="approvals-block">
+                        <h4>Approvals</h4>
+                        <div class="content-block">No Approvals</div>
+                    </div>
+                    <div class="invoices-block">
+                        <h4>Invoices (2)</h4>
+                        <div class="invoice-item">
+                            <div>waa</div>
+                            <div>May 26, 2024</div>
+                            <div>€ 0.00</div>
+                        </div>
+                        <div class="invoice-item">
+                            <div>ACME</div>
+                            <div>May 18, 2024</div>
+                            <div>AUD 0.00</div>
+                        </div>
+                    </div>
+                    <div class="expenses-block">
+                        <h4>Available Expenses</h4>
+                        <div class="content-block">No Available Expenses</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
